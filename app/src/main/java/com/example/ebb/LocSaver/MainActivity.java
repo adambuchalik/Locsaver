@@ -103,12 +103,6 @@ public class MainActivity extends AppCompatActivity {
                     final int itemPosition = position;
                     final int itemIndex = x;
 
-                    Log.i("POSITION:::::::::::::", String.valueOf(position));
-                    Log.i("itemIndex::::::::::::", String.valueOf(itemIndex));
-                    Log.i("itemPosition::::::::", String.valueOf(itemPosition));
-                    Log.i("positionSize::::::::", String.valueOf(locations.size()));
-                    Log.i("places::::::::", String.valueOf(places));
-
                     AlertDialog show = new AlertDialog.Builder(MainActivity.this)
                             .setIcon(android.R.drawable.ic_dialog_alert)
                             .setTitle("Edit item")
