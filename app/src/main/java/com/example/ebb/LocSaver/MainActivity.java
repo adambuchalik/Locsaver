@@ -193,11 +193,6 @@ public class MainActivity extends AppCompatActivity {
             latitudes = (ArrayList<String>) ObjectSerializer.deserialize(sharedPreferences.getString("latitudes", ObjectSerializer.serialize(new ArrayList<String>())));
             longitudes = (ArrayList<String>) ObjectSerializer.deserialize(sharedPreferences.getString("longitudes", ObjectSerializer.serialize(new ArrayList<String>())));
 
-//            places = (ArrayList<String>) deserialize(sharedPreferences.getString("places", serialize(new ArrayList<String>())));
-//
-//            latitudes = (ArrayList<String>) deserialize(sharedPreferences.getString("latitudes", serialize(new ArrayList<String>())));
-//
-//            longitudes = (ArrayList<String>) deserialize(sharedPreferences.getString("longitudes", serialize(new ArrayList<String>())));
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -274,7 +269,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+    //custom Dialog box for editing listview items
     public void showInputBox(String oldItem, final int index) {
         final Dialog dialog = new Dialog(MainActivity.this);
         dialog.setTitle("Input Box");
