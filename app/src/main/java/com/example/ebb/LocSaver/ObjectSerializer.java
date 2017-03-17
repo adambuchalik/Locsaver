@@ -1,3 +1,8 @@
+/* Author:  Adam Buchalik 40270304
+   Subject: Mobile Application Development Coursework
+   Title:   Loc Saver
+   File:    Customized Serializer Class by Rob Percival */
+
 package com.example.ebb.LocSaver;
 
 import java.io.ByteArrayInputStream;

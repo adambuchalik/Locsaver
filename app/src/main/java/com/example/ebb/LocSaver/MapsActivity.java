@@ -1,3 +1,7 @@
+/* Author:  Adam Buchalik 40270304
+   Subject: Mobile Application Development Coursework
+   Title:   Loc Saver */
+
 package com.example.ebb.LocSaver;
 
 import android.Manifest;
